@@ -13,7 +13,7 @@ const Account = () => {
   return (
     <>
       <Head>
-        <title>WeTube</title>
+        <title>WeTube Watch Party</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Layout>
@@ -28,9 +28,7 @@ const Account = () => {
                 className="w-24 h-24 -mt-12 rounded-lg"
               />
               <div className="mx-4 mt-1">
-                <div className="text-xl font-bold font-semibold">
-                  Li Wei
-                </div>
+                <div className="text-xl font-bold font-semibold">Li Wei</div>
                 <div className="text-base font-semi-bold">504 Subscribers</div>
               </div>
             </div>
