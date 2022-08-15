@@ -20,12 +20,10 @@ export default function Watch() {
   useEffect(() => {
     if (cid) {
       if (typeof cid !== "string" || !isCid(cid)) {
-        alert("Invalid Video CID!");
         return;
       }
 
       const loadVideo = (url: string, type: string) => {
-        console.log("loading:,", url, type);
         setVideoUrl(url);
         setVideoType(type);
       };
