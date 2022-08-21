@@ -46,7 +46,7 @@ export function ToastProvider({ children }: any) {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        style={{marginTop: 40}}
+        style={{ marginTop: 30 }}
       />
       {children}
     </ToastContext.Provider>

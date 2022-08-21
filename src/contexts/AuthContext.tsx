@@ -17,12 +17,8 @@ const AuthContext = createContext({} as AuthContextType);
 
 export function AuthProvider({ children }: any) {
   const { showSuccess, showError, showLoading } = useContext(ToastContext);
-
   const [user, setUser] = useState<User | null>(null);
-
   const isAuthenticated = !!user;
-
-  console.log("Code Cleanup");
   useEffect(() => {}, []);
 
   return (
